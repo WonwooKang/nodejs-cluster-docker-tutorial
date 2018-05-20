@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+    nodejs_tutorial_server_0:
+        image: node_server:${TAG}
+        build: Dockerfile
+        ports:
+            - "3000:3000"
+    
+    nodejs_tutorial_server_1:
+        image: node_server:${TAG}
+        ports:
+            - "3001:3000"
+            
+    nodejs_tutorial_server_2:
+        image: node_server:${TAG}
+        ports:
+            - "3002:3000"
+            
+    nodejs_tutorial_server_3:
+        image: node_server:${TAG}
+        ports:
+            - "3003:3000"
