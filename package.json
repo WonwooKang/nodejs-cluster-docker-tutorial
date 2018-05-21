@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon nodejs_tutorial_server.js",
-    "start_prod": "node nodejs_tutorial_server.js"
+    "start": "nodemon nodejs_tutorial_server.js"
   },
   "description": "NodeJS Tutorial Server",
   "author": {
